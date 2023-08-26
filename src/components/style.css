@@ -1,0 +1,140 @@
+*{
+    margin:0px;
+    padding:0px;
+    
+}
+.head{
+    box-shadow: -8px 0px 20px black;
+    background-color: #191B21;
+    display: inline-block;
+    margin-top: 3rem;
+    border-top-left-radius: 10px;
+    border-top-right-radius:10px;
+    /* border-bottom-left-radius: 60px; */
+    /* border-bottom-right-radius: 10%; */
+    /* padding-bottom: 0.5rem; */
+    margin-bottom: 10rem;
+    /* z-index: 99; */
+}
+
+body{
+    background-color: #23242D;
+    text-align: center;
+
+}
+
+.image{
+    height:12rem;
+    /* display: flex; */
+    /* margin: auto; */
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+    
+}
+
+.name> h1{
+    font-size: 1.5rem;
+    padding-bottom: 4px ;
+    color:aliceblue
+
+}
+
+.name> h3{
+    font-size: 0.6rem;
+    padding-bottom: 8px;
+    color: #93807E;
+}
+
+.name> h5{
+    font-size: 0.5rem;
+    color: rgb(248, 228, 255);
+    margin-bottom: 8px;
+}
+
+
+.bl{
+    border-radius: 4px;
+    border: none;
+    padding:6px;
+    background-color: #0288D1;
+    cursor: grab;
+    margin: 0px 5px;
+    font-style: none;
+    text-decoration: none;
+}
+.wt span{
+    padding-left: 10px;
+}
+.wt{
+    width: 7rem;
+    margin: 0px 5px;
+    border-radius: 4px;
+    border: none;
+    padding:6px;
+    background-color: aliceblue;
+    text-decoration: none;
+}
+
+.wt:hover{
+    box-shadow: 2px 2px 20px white;
+    cursor: grab;
+    transition: all ease 0.5s;
+}
+
+.bl:hover{
+    box-shadow: 2px 2px 20px #0288D1;
+    transition: all ease 0.5s;
+}
+
+.bl img{
+    height: 19px;
+    position: relative;
+    top: 5px;
+}
+
+.head1{
+    text-align: left;
+    color: aliceblue;
+    width: 12rem;
+    /* background-color: red; */
+    margin-top: 15px;
+    display: block;
+    padding-left: 10px;
+}
+.head2{
+    text-align: left;
+    color: aliceblue;
+    width: 12rem;
+    /* background-color: red; */
+    margin-top: 15px;
+    display: block;
+    padding-left: 10px;
+ 
+}
+
+.head1>h1,.head2>h1{
+    font-size: 100%;
+}
+.head1>p,.head2>p{
+    font-size: 10px;
+}
+
+.ftr{
+    background-color:#111115 ;
+    margin-top: 10%;
+    display: flex;
+    justify-content: space-between;    
+    padding: 0px 10px;
+    /* margin-top: ; */
+    color: aliceblue;
+    position: relative;
+    top:1.1rem;
+    border-bottom-left-radius: 10px;
+    border-bottom-right-radius:10px ;
+    padding: 5px 3px;
+    box-shadow: 0px 8px 20px black;
+}
+.ftr>a{
+    cursor: grab;
+}
+
